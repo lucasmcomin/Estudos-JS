@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automação Moderatto</title>
+    <link rel= "stylesheet" href="style.css">
+</head>
+<body>
+    <img src="images\M_circulo_moderatto_2.png" width="200" height="200">
+    <div id = "d1">
+
+        <label class = "labelOrc">Data:</label>
+        <input class = "entradas" id = "data" type="date">
+        <label class = "labelOrc">Cliente:</label>
+        <input class = "entradas" id = "cliente" > 
+        <label class = "labelOrc">Tipo de Evento:</label>
+        <select class = "entradas" name="select">
+            <option value="Casamento" selected>Casamento</option>
+            <option value="Aniversário">Aniversário</option>
+            <option value="Empresarial">Empresarial</option>
+            <option value="Formatura">Formatura</option>
+            <option value="Outros">Outros</option>
+            
+        </select>
+
+        <label class = "labelOrc">Serviços:</label>
+
+        
+        <input type="checkbox" class = "checkServ" id="Cerimonia" value="Cerimônia" checked />
+        <label class = "labelServ" >Cerimônia</label>
+        <input type="checkbox" class = "checkServ" id="Festa" value="Festa">
+        <label class = "labelServ" >Festa</label>
+        <input type="checkbox" class = "checkServ"  id="DJ" value="DJ" />
+        <label class = "labelServ" >DJ</label><br>
+
+        <label class = "labelOrc">Telefone:</label>
+        <input class = "entradas" type="tel" id = "telefone" > 
+        <label class = "labelOrc">Email:</label>
+        <input class = "entradas" type="email" id = "email" > 
+        
+    </div>
+     
+    
+    <script src="index.js"></script>
+</body>
+</html>

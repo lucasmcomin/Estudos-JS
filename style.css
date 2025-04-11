@@ -1,0 +1,91 @@
+body{
+    font-family: Arial;
+    
+    background-image: url("images/bateria_aplicacao.png");
+    background-position: center; 
+}
+
+#core{
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    
+}
+
+#labelIndex{
+    margin-top: 25px;
+    padding: 30px 30px;
+    color:white;
+    font-size: 3rem;
+    border-radius: 20px;
+    background-color: hsl(228, 47%, 25%);
+    width: 600px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+button{
+    margin-top: 50px;
+    margin-right: 10px;
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    background-color: hsla(228, 42%, 19%, 0.74);
+    color: white;
+    border: none;
+    border-radius: 5px;
+  
+}
+button:hover{
+    background-color: hsl(231, 37%, 73%);
+}
+
+.labelOrc{
+    font-size: 1.5rem;
+    color:white;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 30px;
+    background-color: hsl(228, 47%, 25%);
+   
+}
+
+.entradas{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#d1{
+    
+    text-align: center;
+    margin-top: 120px;
+  
+}
+
+
+.labelServ{
+    color:white;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.check{
+    display: block;
+}
+
+textarea{
+    width: 500px;
+    height: 400px;
+    margin-left: 30px;
+
+}
+
+.btnInserirInfo{
+    font-size: 0.1;
+    background-color: gray;
+    margin-left: 30px;
+
+}
